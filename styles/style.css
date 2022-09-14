@@ -1,5 +1,5 @@
 /* Reset */
-*{
+body{
 	margin:0;
 	padding:0;
 }
@@ -17,6 +17,9 @@ a{
 li {
     list-style: none;
     text-transform: capitalize;
+}
+.bluesky{
+    color: #54a6de;
 }
 
 /*Common styling */
@@ -39,6 +42,7 @@ height: 45px;
     display: flex;
     width: 70%;
     justify-content:flex-end;
+    align-items: center;
 }
 .nav-menu {
     display: flex;
@@ -59,4 +63,48 @@ main {
     height: 500px;
     background-color: #0a2336;
     width: 100%;
+}
+.content-box{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+.content-box p {
+    margin-bottom: 20px;
+}
+.content-box h1{
+    margin-bottom: 20px;
+}
+.content-box div{
+    margin: 40px 0 20px 0;
+}
+.content-box a {
+    background-color: #ffb800;
+    color: black;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+.section-1-imgbar {
+    width: 60%;
+    height: 320px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+}
+.section-1-imgbar div{
+    border-radius: 90px;
+    
+}
+.section-1-imgbar div img{
+    width: 190px;
+    height: 270px;
+    border-radius: 90px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;}
+.img1{
+    align-self: flex-end;
+}
+.img3{
+    align-self: flex-end;
 }
