@@ -109,8 +109,8 @@ main {
     align-self: flex-end;
 }
 .section-2{
-    height: 400px;
-    padding: 150px 120px 0px;
+    height: 500px;
+    padding: 150px 7% 0px;
 }
 .article-container {
     margin-top: 20px;
@@ -131,4 +131,22 @@ main {
 }
 .innewstext {
     padding: 0 10px;
+}
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #54a6de;
+    position: relative;
+    left: -14%;
+    top: -70px;
+}
+.section-3-container{
+    display: flex;
+    border-radius: 10px;
+    background-color: #0a2336;
+    color: white;
+    margin-top: 50px;
+    width: 86%;
+    margin: 0 auto;
 }
